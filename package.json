@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "homepage": "https://urielglb.github.io/TS-Redux-Counter/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist", 
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy":"gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
