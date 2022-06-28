@@ -2,12 +2,15 @@
   "name": "redux-counter",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://urielglb.github.io/TS-Redux-Counter/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
